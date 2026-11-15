@@ -17,6 +17,7 @@ It adds a **3v3 LAN multiplayer room** on top of the original local Pair-Go.
 | **Direct zip (recommended)** | [**lizzie-multiplayer-plugin-3.0.13.zip**](https://gitee.com/kindlingycs/lizzie-multiplayer-plugin/raw/master/pairgo/lizzie-multiplayer-plugin-3.0.13.zip) |
 | Gitee Release page | [v3.0.13 Release](https://gitee.com/kindlingycs/lizzie-multiplayer-plugin/releases/tag/v3.0.13) |
 | Release asset | [Download zip from Release](https://gitee.com/kindlingycs/lizzie-multiplayer-plugin/releases/download/v3.0.13/lizzie-multiplayer-plugin-3.0.13.zip) |
+| **GitHub Release asset** | [Download zip from GitHub](https://github.com/kindlingycs-source/YHWQ-automated-game-play/releases/download/lizzie-multiplayer-plugin-v3.0.13/lizzie-multiplayer-plugin-3.0.13.zip) |
 | Old 2.1.2 | [lizzie-multiplayer-plugin-2.1.2.zip](https://gitee.com/kindlingycs/lizzie-multiplayer-plugin/raw/master/pairgo/lizzie-multiplayer-plugin-2.1.2.zip) |
 | Old 2.0.3 | [lizzie-multiplayer-plugin-2.0.3.zip](https://gitee.com/kindlingycs/lizzie-multiplayer-plugin/raw/master/pairgo/lizzie-multiplayer-plugin-2.0.3.zip) |
 | Old 1.0.7 | [lizzie-multiplayer-plugin-1.0.7.zip](https://gitee.com/kindlingycs/lizzie-multiplayer-plugin/raw/master/pairgo/lizzie-multiplayer-plugin-1.0.7.zip) |
