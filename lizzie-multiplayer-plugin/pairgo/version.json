@@ -1,0 +1,6 @@
+{
+  "version": "3.0.13",
+  "downloadUrl": "https://gitee.com/kindlingycs/lizzie-multiplayer-plugin/raw/master/pairgo/lizzie-multiplayer-plugin-3.0.13.zip",
+  "md5": "fc2d0d5c76f26f90dda46f75b5fe3207",
+  "updateLog": "3.0.13：原生底部工具栏完全隔离，修复多人约战退出后底部按钮消失"
+}
