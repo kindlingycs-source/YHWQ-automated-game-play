@@ -1,0 +1,7 @@
+{
+  "version": "3.2.0",
+  "url": "https://gitee.com/kindlingycs/wildfox-automated-go-matches/releases/download/v3.2.0/%E9%87%8E%E7%8B%90%E8%87%AA%E5%8A%A8%E5%AF%B9%E5%BC%88-v3.2.0.zip",
+  "md5": "106b277cf4fa886c5af970d40598c701",
+  "notes": "v3.2.0：新增 AI 托管页（自然语言/定时任务/聊天/押分/悬浮球），API 配置页与文本模型视觉开关；AI 托管控制接口内置。仅供学习交流，禁止代打、刷屏、嘲讽对手；使用风险自负。",
+  "asset": "野狐自动对弈.exe"
+}
