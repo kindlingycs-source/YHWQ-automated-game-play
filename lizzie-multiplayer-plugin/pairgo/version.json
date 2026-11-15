@@ -1,6 +1,6 @@
 {
-  "version": "3.0.14",
-  "downloadUrl": "https://gitee.com/kindlingycs/lizzie-multiplayer-plugin/raw/master/pairgo/lizzie-multiplayer-plugin-3.0.14.zip",
-  "md5": "63bd23d9446bdf6e5a4de596a3123559",
-  "updateLog": "3.0.14：启动自愈原生底部工具栏；旧版持久化的 toolbarHeight=0 自动恢复，对战布局不写坏原生界面"
+  "version": "3.0.15",
+  "downloadUrl": "https://gitee.com/kindlingycs/lizzie-multiplayer-plugin/raw/master/pairgo/lizzie-multiplayer-plugin-3.0.15.zip",
+  "md5": "8a681b77c00b252d55fa78bf4b37d2cc",
+  "updateLog": "3.0.15：修正启动自愈阈值（<20px）；旧配置 toolbarHeight=1 也能恢复原生底部工具栏"
 }
