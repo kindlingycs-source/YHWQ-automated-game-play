@@ -1,5 +1,20 @@
 # 野狐自动对弈（Fox Auto）· AI 托管版
 
+## ⬇️ 普通用户点这里下载（不用看源码）
+
+| 版本 | 下载 | 说明 |
+|---|---|---|
+| **v3.2.0（最新）** | [**YHWQ-v3.2.0.zip**](https://github.com/kindlingycs-source/YHWQ-automated-game-play/releases/download/v3.2.0/YHWQ-v3.2.0.zip) | Windows 10/11 64 位，约 33 MB |
+| v3.1.7（旧版） | [YHWQ-v3.1.7.zip](https://github.com/kindlingycs-source/YHWQ-automated-game-play/releases/download/v3.1.7/YHWQ-v3.1.7.zip) | 仅用于回退 |
+
+**不要**点右上角 `Code → Download ZIP`，那是源码，不能直接运行。
+
+下载后：解压 → 双击 `野狐自动对弈.exe` → SmartScreen 点「更多信息」→「仍要运行」。
+
+> Gitee 镜像下载：<https://gitee.com/kindlingycs/wildfox-automated-go-matches/releases>
+
+---
+
 > **⚠️ 仅供学习、研究与技术交流使用。**
 >
 > **禁止**将本软件用于：代打、代练、上分、刷屏、嘲讽/辱骂对手、恶意骚扰、
