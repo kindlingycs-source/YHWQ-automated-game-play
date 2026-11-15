@@ -3,21 +3,21 @@
 A classpath-override plugin for **LizzieYzy 2.5.3** (including the Lizzie bundled with 智子围棋 / Ikatago).
 It adds a **3v3 LAN multiplayer room** on top of the original local Pair-Go.
 
-- Version: **3.0.14**
+- Version: **3.0.15**
 - Base: LizzieYzy **2.5.3** (`lizzie-yzy2.5.3-shaded.jar`)
 - Entry: **New Game → Multiplayer (LAN)**; the original local Pair-Go remains on **Alt+L**
-- Distribution: `pairgo/lizzie-multiplayer-plugin-3.0.14.zip`
+- Distribution: `pairgo/lizzie-multiplayer-plugin-3.0.15.zip`
 
 ---
 
-## ⬇ Download 3.0.14
+## ⬇ Download 3.0.15
 
 | Download | Link |
 | --- | --- |
-| **Direct zip (recommended)** | [**lizzie-multiplayer-plugin-3.0.14.zip**](https://gitee.com/kindlingycs/lizzie-multiplayer-plugin/raw/master/pairgo/lizzie-multiplayer-plugin-3.0.14.zip) |
-| Gitee Release page | [v3.0.14 Release](https://gitee.com/kindlingycs/lizzie-multiplayer-plugin/releases/tag/v3.0.14) |
-| Release asset | [Download zip from Release](https://gitee.com/kindlingycs/lizzie-multiplayer-plugin/releases/download/v3.0.14/lizzie-multiplayer-plugin-3.0.14.zip) |
-| **GitHub Release asset** | [Download zip from GitHub](https://github.com/kindlingycs-source/YHWQ-automated-game-play/releases/download/lizzie-multiplayer-plugin-v3.0.14/lizzie-multiplayer-plugin-3.0.14.zip) |
+| **Direct zip (recommended)** | [**lizzie-multiplayer-plugin-3.0.15.zip**](https://gitee.com/kindlingycs/lizzie-multiplayer-plugin/raw/master/pairgo/lizzie-multiplayer-plugin-3.0.15.zip) |
+| Gitee Release page | [v3.0.15 Release](https://gitee.com/kindlingycs/lizzie-multiplayer-plugin/releases/tag/v3.0.15) |
+| Release asset | [Download zip from Release](https://gitee.com/kindlingycs/lizzie-multiplayer-plugin/releases/download/v3.0.15/lizzie-multiplayer-plugin-3.0.15.zip) |
+| **GitHub Release asset** | [Download zip from GitHub](https://github.com/kindlingycs-source/YHWQ-automated-game-play/releases/download/lizzie-multiplayer-plugin-v3.0.15/lizzie-multiplayer-plugin-3.0.15.zip) |
 | Old 2.1.2 | [lizzie-multiplayer-plugin-2.1.2.zip](https://gitee.com/kindlingycs/lizzie-multiplayer-plugin/raw/master/pairgo/lizzie-multiplayer-plugin-2.1.2.zip) |
 | Old 2.0.3 | [lizzie-multiplayer-plugin-2.0.3.zip](https://gitee.com/kindlingycs/lizzie-multiplayer-plugin/raw/master/pairgo/lizzie-multiplayer-plugin-2.0.3.zip) |
 | Old 1.0.7 | [lizzie-multiplayer-plugin-1.0.7.zip](https://gitee.com/kindlingycs/lizzie-multiplayer-plugin/raw/master/pairgo/lizzie-multiplayer-plugin-1.0.7.zip) |
@@ -26,9 +26,9 @@ It adds a **3v3 LAN multiplayer room** on top of the original local Pair-Go.
 
 ---
 
-![3.0.14 post-game panel](docs/3.0.14-game.png)
+![3.0.15 post-game panel](docs/3.0.15-game.png)
 
-![3.0.14 native toolbar restored after leaving the room](docs/3.0.14-native-exit.png)
+![3.0.15 native toolbar restored after leaving the room](docs/3.0.15-native-exit.png)
 
 ---
 
@@ -57,7 +57,7 @@ It adds a **3v3 LAN multiplayer room** on top of the original local Pair-Go.
 
 ### 智子围棋 (recommended)
 
-1. Unzip `lizzie-multiplayer-plugin-3.0.14.zip`.
+1. Unzip `lizzie-multiplayer-plugin-3.0.15.zip`.
 2. Close 智子围棋 completely.
 3. Run **安装到智子围棋.bat** (backs up `run.bat`, copies the plugin jar).
 4. Start 智子围棋 normally.
@@ -94,7 +94,7 @@ Requirements: JDK 17 (compiling to Java 8), LizzieYzy 2.5.3 original jar.
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File build-local.ps1
-python pack-plugin.py --log "3.0.14 release"
+python pack-plugin.py --log "3.0.15 release"
 ```
 
 The built jar is `plugin/多人联棋插件/pairgo-plugin.jar`; `pack-plugin.py` creates the
@@ -111,7 +111,7 @@ zip, `version.json`, and syncs the desktop copy.
 - `MultiReadyRulesTest` — headless rules/ready regression.
 - `MultiJoinBot` — headless client that joins, readies, plays random moves and returns to lobby.
 
-3.0.14 GUI test result: `PASS`; `native toolbar restored visible=true height=26`.
+3.0.15 GUI test result: `PASS`; `native toolbar restored visible=true height=26`.
 
 ---
 
