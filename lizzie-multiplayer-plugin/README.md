@@ -3,21 +3,21 @@
 给 **LizzieYzy 2.5.3**（含智子围棋电脑版内置的 Lizzie）增加「多人约战」局域网联棋功能：
 **3v3 六座**，每个座位可以是 **人类 / AI / 空**，支持 1v1、2v2、3v3 及人机混编。
 
-- 当前版本：**3.0.15**
+- 当前版本：**3.0.17**
 - 支持底座：LizzieYzy **2.5.3**（`lizzie-yzy2.5.3-shaded.jar`，MD5 `19e31482966b7bdb0eb042f45d4fb6e0`）
 - 入口：**新对局 → 多人约战（真人联机）**；本地联棋仍然保留原来的 **Alt+L**
 - 插件形态：类路径覆盖式插件，只放改动过的类，**不改底座 jar**
 
 ---
 
-## ⬇ 下载最新版 3.0.15
+## ⬇ 下载最新版 3.0.17
 
 | 下载方式 | 链接 |
 | --- | --- |
-| **直接下载 zip（推荐）** | [**lizzie-multiplayer-plugin-3.0.15.zip**](https://gitee.com/kindlingycs/lizzie-multiplayer-plugin/raw/master/pairgo/lizzie-multiplayer-plugin-3.0.15.zip) |
-| Gitee Release 页面 | [v3.0.15 Release](https://gitee.com/kindlingycs/lizzie-multiplayer-plugin/releases/tag/v3.0.15) |
-| Release 附件直链 | [从 Release 下载 zip](https://gitee.com/kindlingycs/lizzie-multiplayer-plugin/releases/download/v3.0.15/lizzie-multiplayer-plugin-3.0.15.zip) |
-| **GitHub Release 附件** | [从 GitHub 下载 zip](https://github.com/kindlingycs-source/YHWQ-automated-game-play/releases/download/lizzie-multiplayer-plugin-v3.0.15/lizzie-multiplayer-plugin-3.0.15.zip) |
+| **直接下载 zip（推荐）** | [**lizzie-multiplayer-plugin-3.0.17.zip**](https://gitee.com/kindlingycs/lizzie-multiplayer-plugin/raw/master/pairgo/lizzie-multiplayer-plugin-3.0.17.zip) |
+| Gitee Release 页面 | [v3.0.17 Release](https://gitee.com/kindlingycs/lizzie-multiplayer-plugin/releases/tag/v3.0.17) |
+| Release 附件直链 | [从 Release 下载 zip](https://gitee.com/kindlingycs/lizzie-multiplayer-plugin/releases/download/v3.0.17/lizzie-multiplayer-plugin-3.0.17.zip) |
+| **GitHub Release 附件** | [从 GitHub 下载 zip](https://github.com/kindlingycs-source/YHWQ-automated-game-play/releases/download/lizzie-multiplayer-plugin-v3.0.17/lizzie-multiplayer-plugin-3.0.17.zip) |
 | 旧版 2.1.2 | [lizzie-multiplayer-plugin-2.1.2.zip](https://gitee.com/kindlingycs/lizzie-multiplayer-plugin/raw/master/pairgo/lizzie-multiplayer-plugin-2.1.2.zip) |
 | 旧版 2.0.3 | [lizzie-multiplayer-plugin-2.0.3.zip](https://gitee.com/kindlingycs/lizzie-multiplayer-plugin/raw/master/pairgo/lizzie-multiplayer-plugin-2.0.3.zip) |
 | 旧版 1.0.7 | [lizzie-multiplayer-plugin-1.0.7.zip](https://gitee.com/kindlingycs/lizzie-multiplayer-plugin/raw/master/pairgo/lizzie-multiplayer-plugin-1.0.7.zip) |
@@ -27,9 +27,9 @@
 
 ---
 
-![3.0.15 对局结束：对局信息+规则合并、回看棋局、数棋](docs/3.0.15-game.png)
+![3.0.17 对局结束：对局信息+规则合并、回看棋局、数棋](docs/3.0.17-game.png)
 
-![3.0.15 退出房间后原生底部工具栏恢复](docs/3.0.15-native-exit.png)
+![3.0.17 退出房间后原生底部工具栏恢复](docs/3.0.17-native-exit.png)
 
 ---
 
@@ -86,7 +86,7 @@
 
 ### 1. 智子围棋电脑版（推荐）
 
-1. 下载 `pairgo/lizzie-multiplayer-plugin-3.0.15.zip` 并解压；
+1. 下载 `pairgo/lizzie-multiplayer-plugin-3.0.17.zip` 并解压；
 2. **完全关闭**智子围棋电脑版；
 3. 双击 **安装到智子围棋.bat**：
    - 自动找到 `...\ikatago_gui_installer\app-*\resources\data\lizzieyzy`
@@ -151,7 +151,7 @@
 
 ## 四、对局中的申请数子（下一阶段）
 
-当前 3.0.15 只有 **终局后回看** 里的简易数子。对局中「申请数子」模块计划如下：
+当前 3.0.17 只有 **终局后回看** 里的简易数子。对局中「申请数子」模块计划如下：
 
 1. 任意一方点 **申请数子**；
 2. 房间进入 `SCORING` 暂停阶段，双方看到当前盘面；
@@ -213,13 +213,13 @@ bash build-local.sh
 打包分发：
 
 ```bash
-python pack-plugin.py --log "3.0.15：多人约战 3v3、合并对局信息/规则、回看棋局、简易数子、退出后原生界面恢复"
+python pack-plugin.py --log "3.0.17：多人约战 3v3、合并对局信息/规则、回看棋局、简易数子、退出后原生界面恢复"
 ```
 
 输出：
 
-- `plugin/多人联棋插件-v3.0.15.zip`
-- `plugin/lizzie-multiplayer-plugin-3.0.15.zip`
+- `plugin/多人联棋插件-v3.0.17.zip`
+- `plugin/lizzie-multiplayer-plugin-3.0.17.zip`
 - `plugin/version.json`
 - 同时同步桌面 `多人联棋插件` 文件夹
 
@@ -241,7 +241,7 @@ java -Dmulti.autotest=1 `
 
 覆盖：开房、AI 座位、加入、准备、开局、隐藏分析面板、AI 落子、终局、SGF、回看、再来一局、退出后原生工具栏恢复。
 
-3.0.15 实测：
+3.0.17 实测：
 
 - `PASS`
 - 终局面板三块：对局信息+规则合并 178px / 对局者 312px / 按钮 125px
@@ -298,7 +298,7 @@ tests/
 
 | 版本 | 内容 |
 | --- | --- |
-| 3.0.15 | 合并对局信息+规则；终局回看棋局；简易数子；退出后原生底部工具栏恢复 |
+| 3.0.17 | 合并对局信息+规则；终局回看棋局；简易数子；退出后原生底部工具栏恢复 |
 | 3.0.11 | 规则格式调整；AI 秒/手按计算量置灰；恢复默认设置；退出按钮常驻 |
 | 3.0.10 | 完整规则显示、房主掉线处理一行、非房主灰框、语音读秒同步 |
 | 3.0.9 | 房主免准备、人类 0 秒不限时、规则复用与校验 |
