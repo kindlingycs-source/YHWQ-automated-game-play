@@ -1,6 +1,6 @@
 {
-  "version": "3.0.15",
-  "downloadUrl": "https://gitee.com/kindlingycs/lizzie-multiplayer-plugin/raw/master/pairgo/lizzie-multiplayer-plugin-3.0.15.zip",
-  "md5": "8a681b77c00b252d55fa78bf4b37d2cc",
-  "updateLog": "3.0.15：修正启动自愈阈值（<20px）；旧配置 toolbarHeight=1 也能恢复原生底部工具栏"
+  "version": "3.0.17",
+  "downloadUrl": "https://gitee.com/kindlingycs/lizzie-multiplayer-plugin/raw/master/pairgo/lizzie-multiplayer-plugin-3.0.17.zip",
+  "md5": "b27174184e45e4419970e2ace97dbc86",
+  "updateLog": "3.0.17：联棋对局页隐藏原生底部工具栏，退出恢复；联棋中禁止任何前后手/回看；纯净对弈终局后显示胜率"
 }
