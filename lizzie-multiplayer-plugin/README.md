@@ -17,6 +17,7 @@
 | **直接下载 zip（推荐）** | [**lizzie-multiplayer-plugin-3.0.13.zip**](https://gitee.com/kindlingycs/lizzie-multiplayer-plugin/raw/master/pairgo/lizzie-multiplayer-plugin-3.0.13.zip) |
 | Gitee Release 页面 | [v3.0.13 Release](https://gitee.com/kindlingycs/lizzie-multiplayer-plugin/releases/tag/v3.0.13) |
 | Release 附件直链 | [从 Release 下载 zip](https://gitee.com/kindlingycs/lizzie-multiplayer-plugin/releases/download/v3.0.13/lizzie-multiplayer-plugin-3.0.13.zip) |
+| **GitHub Release 附件** | [从 GitHub 下载 zip](https://github.com/kindlingycs-source/YHWQ-automated-game-play/releases/download/lizzie-multiplayer-plugin-v3.0.13/lizzie-multiplayer-plugin-3.0.13.zip) |
 | 旧版 2.1.2 | [lizzie-multiplayer-plugin-2.1.2.zip](https://gitee.com/kindlingycs/lizzie-multiplayer-plugin/raw/master/pairgo/lizzie-multiplayer-plugin-2.1.2.zip) |
 | 旧版 2.0.3 | [lizzie-multiplayer-plugin-2.0.3.zip](https://gitee.com/kindlingycs/lizzie-multiplayer-plugin/raw/master/pairgo/lizzie-multiplayer-plugin-2.0.3.zip) |
 | 旧版 1.0.7 | [lizzie-multiplayer-plugin-1.0.7.zip](https://gitee.com/kindlingycs/lizzie-multiplayer-plugin/raw/master/pairgo/lizzie-multiplayer-plugin-1.0.7.zip) |
